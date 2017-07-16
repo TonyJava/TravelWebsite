@@ -1,0 +1,248 @@
+/*头部*/
+.header{
+    height:70px;
+    background: RGB(51,51,51);
+}
+.img{
+    margin-left:40px;
+    float:left;
+    margin-right:350px;
+}
+.ul1 li{
+    float:left;
+    text-align:center;
+}
+.ul1 li a{
+    width:135px;
+    height:70px;
+    line-height: 70px;
+    font-size:18px;
+    color:#ccc;
+    padding:0 20px;
+    display:block;/*此处可以防止鼠标放上去时，出现动的状况*/
+}
+.ul1 li a:hover,.current{
+    background: #900;
+    display:inline-block;
+}
+/*图片区域*/
+.imgs{
+    width:100%;
+    height:300px;
+    /*linear-gradient实现背景渐变效果*/
+    background:linear-gradient(to bottom right,rgba(0,0,0,0.7),rgba(0,0,0,0.0)), url("../img/headline.jpg") no-repeat center;
+}
+.imgs h1,p{
+    padding-left:85px;
+}
+.imgs h1{
+    padding-top: 115px;
+    font-size: 36px;
+    color:#eee;
+    font-weight: bold;
+}
+.imgs p{
+    color:#eee;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*内容区*/
+.content{
+    height:988px;
+    background:#ccc;
+}
+.content3{
+    width:1210px;
+    margin:0 auto;
+    padding:20px 0 20px 0;
+}
+/*contentshang*/
+.contentshang h1{
+    color:#666;
+    font-size: 28px;
+    height:60px;
+    line-height: 60px;
+    font-weight: normal;
+    text-indent: 0.5em;
+    border-bottom: 1px dashed #222;
+}
+.contentshang .ul2{
+    padding:15px 0 25px 0;
+    text-indent: 1.2em;
+}
+.contentshang .ul2 li{
+    float:left;
+}
+.contentshang .ul2 li a{
+    font-size: 18px;
+    color:#777;
+    padding-right:10px;
+    display:inline;
+    width:70px;
+    height:35px;
+}
+.contentshang .ul2 li a:hover,.current1{
+    text-align: center;
+    padding:5px;
+    background:#458b00;
+    display:inline;
+    border-radius:5px;
+    border:1px solid #ccc;
+    color:#fff!important;
+}
+.input{
+    position:relative;
+}
+.input .ul3{
+    width:930px;
+    height:150px;
+}
+.input .ul3 li{
+    width:460px;
+    float:left;
+    padding:0 0 20px 0;
+    text-indent: 0.9em;
+    font-size: 16px;
+    color:#666;
+    margin-right:5px;
+}
+.input .ul3 li input{
+    outline:none;
+    width:310px;
+    height:40px;
+    border:1px solid #999;
+    border-radius: 5px;
+    background:#ddd;
+    margin-left:10px;
+}
+.input .dingpiao{
+   position:absolute;
+    width:85px;
+    height:85px;
+    background:#ff6600;
+    border-radius: 6px;
+    top:10px;
+    right:110px;
+    line-height: 80px;
+    font-size: 22px;
+    text-align: center;
+    color:#fff;
+    box-shadow: 5px 5px 5px #666;
+}
+/*contentxia*/
+.contentxia h2{
+    color:#666;
+    font-size: 28px;
+    height:60px;
+    line-height: 60px;
+    font-weight: normal;
+    text-indent: 0.5em;
+    border-bottom: 1px dashed #222;
+}
+.contentxia .ul4{
+    padding:15px 0 25px 0;
+    text-indent: 1.2em;
+}
+.contentxia .ul4 li{
+    float:left;
+}
+.contentxia .ul4 li a{
+    font-size: 18px;
+    color:#777;
+    padding-right:10px;
+    display:inline;
+    width:70px;
+    height:35px;
+}
+.contentxia .ul4 li a:hover{
+    text-align: center;
+    padding:5px;
+    background:#458b00;
+    display:inline;
+    border-radius:5px;
+    border:1px solid #ccc;
+    color:#fff!important;
+}
+/*table对表格的处理*/
+.contentxia table{
+    margin-left:15px;
+    margin-top:30px;
+    border:1px solid #aaa;
+    width:65%;/*目的是为了画一部分线*/
+    text-align:center;/*让文字居中*/
+    line-height:2.7;
+    border-collapse:collapse;
+}
+.contentxia table thead tr th{
+    font-weight: normal;
+    border-bottom:1px solid #aaa;/*为其下面添加下划线*/
+}
+.contentxia table tbody tr td{
+    border-bottom: 1px solid #aaa;
+}
+.contentxia table thead tr th,.contentxia table tbody tr td,.contentxia table tfoot tr td{
+    font-size: 18px;
+    color:#666;
+}
+.contentxia table .price1{
+    color:#ff6600;
+    font-weight: bold;
+}
+.contentxia table .reserve{
+    width:80px;
+    height:45px;
+    padding:5px;
+    display:inline;/*让其不是以块状元素显示，把字包围住就行(掌握),还可以让 border-bottom发生变化*/
+    background: #ff6600;
+    border-radius:5px;
+}
+.contentxia table .selected{
+    background:#bbb;
+}
+.contentxia table tr:hover{
+    background:#999;
+}
+
+/*底部*/
+.foot{
+    width:1210px;
+    margin:0 auto;
+}
+.footer{
+    height:240px;
+    background: rgb(34,34,34);
+}
+.footerleft,.footermiddle,.footerright{
+    width:380px;
+    margin-right:22px;
+}
+.footer .foot h1{
+    color:#888;
+    padding-top:20px;
+    padding-left:10px;
+}
+
+.footerleft h1,.footermiddle h1,.footerright h1{
+    padding-bottom: 5px;
+    border-bottom:1px dashed #666;
+}
+.footer span{
+    color:#555;
+    line-height:30px;
+    font-size:16px;
+    padding-left:10px;
+}
+/*footerr*/
+.footerr{
+    background: #000;
+    height:80px;
+}
+.footerr p{
+    text-align: center;
+    color:#666;
+    font-size: 16px;
+    padding-top:30px;
+}
+
+
+

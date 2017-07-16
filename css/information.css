@@ -1,0 +1,354 @@
+/*头部*/
+.header{
+    height:70px;
+    background: RGB(51,51,51);
+}
+.img{
+    margin-left:40px;
+    float:left;
+    margin-right:350px;
+}
+.ul1 li{
+    float:left;
+    text-align:center;
+}
+.ul1 li a{
+    width:135px;
+    height:70px;
+    line-height: 70px;
+    font-size:18px;
+    color:#ccc;
+    padding:0 20px;
+    display:block;/*此处可以防止鼠标放上去时，出现动的状况*/
+}
+.ul1 li a:hover,.current{
+    background: #900;
+    display:inline-block;
+}
+/*图片区域*/
+.imgs{
+    width:100%;
+    height:300px;
+    /*linear-gradient实现背景渐变效果*/
+    background:linear-gradient(to bottom right,rgba(0,0,0,0.7),rgba(0,0,0,0.0)), url("../img/headline.jpg") no-repeat center;
+}
+.imgs h1,p{
+    padding-left:85px;
+}
+.imgs h1{
+    padding-top: 115px;
+    font-size: 36px;
+    color:#eee;
+    font-weight: bold;
+}
+.imgs p{
+    color:#eee;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*内容区*/
+.content{
+    height:2410px;
+    background:#ccc;
+    margin:0 auto;
+    padding:30px 0 30px 0;
+}
+.contentt{
+   width:1210px;
+    margin:0 auto;
+}
+/*左边区域*/
+.content .contentt .list{
+    width:900px;
+   margin-right:25px;
+}
+.content .contentt .list .infor{
+    color:#666;
+    width:900px;
+    height:45px;
+    background-color:#bbb;
+    margin-bottom: 20px;
+}
+.content .contentt .list .infor .left li{
+    display: inline-block;/*成为一行*/
+    width:150px;
+    height:45px;
+    line-height: 45px;
+    text-align: center;
+    color:#666;
+    font-size: 16px;
+}
+.content .contentt .list .infor .left li:hover,.color{
+    background:#fafafa;
+    border-top:1px solid #59b200;
+}
+.content .infor .right{
+    margin:0 10px 0 0;
+}
+.content .infor .right li{
+    display: inline;/*成为一行,而且是鼠标放上去在中间*/
+    margin:0 20px 0 0;
+    line-height:45px;
+    font-size:15px;
+    padding:3px 10px;
+}
+.content .infor .right li:hover,.color1{
+    background:#59b200;
+    color:#fafafa;
+    cursor:pointer;
+}
+.content .tour{/*父元素*/
+    height:230px;
+    border:1px solid #bbb;
+    margin-bottom: 20px;
+    position: relative;
+}
+.content .tour img{
+    /*float:left;  此句可以使图片和文字并排排列*/
+    margin-right:30px;
+}
+.content .tour figcaption{
+    width:528px;
+    height:230px;
+    float:right;
+}
+.content .tour .header1 h2{
+    font-size: 24px;
+    font-weight: normal;
+    color:#333;
+    padding:10px 0 10px 0;
+}
+.content .tour .header1 h3{
+    font-size: 16px;
+    font-weight: normal;
+    color:#666;
+    line-height: 1.5;
+    padding:10px 0 10px 25px;
+}
+.content .tour ul{
+    color:#666;
+    line-height: 2;
+}
+.content .tour mark{
+    padding:0 5px;
+    color:#458b00;
+    border:1px solid #458b00;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.content .tour ul li{
+    font-size: 16px;
+}
+.content .tour .buy{/*相对于父元素进行定位*/
+    position:absolute;
+    top:55px;
+    right:30px;
+}
+.content .tour .buy .price{
+    color:#f60;
+    font-size: 20px;
+}
+.content .tour .buy .price s{
+    color:#666;
+}
+.content .tour .buy .price strong{
+    font-size: 36px;
+}
+.content .tour .buy .reserve{
+    width:150px;
+    height:40px;
+    border-radius: 5px;
+    background:#f60;
+}
+.content .tour .buy .reserve a{
+    color:#fff;
+   padding-left:35px;
+    line-height: 40px;
+    font-size:20px;
+}
+.content .tour .type{/*设置那个绿色背景的那个*/
+    width:90px;
+    height:25px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    color:#fff;
+    background-color: #59b200;
+    position:absolute;
+    border-bottom-right-radius:4px;
+    left:0;
+    top:0;
+    letter-spacing:1px;
+}
+.content .tour .disc{/*右上角的那个定位*/
+    width:52px;
+    height:52px;
+    background: #ccc url("../img/disc.png") no-repeat;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.content .tour .disc span{
+    width:52px;
+    height:52px;
+    display:block;
+    transform:rotate(45deg);
+    padding:5px 0 0 7px;
+    font-size:14px;
+    color:#ff7a4d;
+}
+.content .tour footer{
+    height:45px;
+    color:#666;
+    font-size: 16px;
+    padding-top: 15px;
+    background-color:#bbb;
+}
+.content .tour footer time{
+    color:#59b200;
+}
+.more{
+    border:1px solid #999;
+    background:#bbb;
+    width:200px;
+    height:50px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color:#666;
+    margin-left:350px;
+}
+/*右边区域*/
+.sidebar{
+    width:320px;
+}
+.sidebox{
+    border:1px solid #bbb;
+    margin-bottom: 10px;
+}
+.sidebox h2{
+    font-size: 18px;
+    text-align:left;
+    color:#888;
+    height:30px;
+    line-height: 30px;
+    padding-left:10px;
+    font-weight: normal;
+    border-bottom: 1px solid #bbb;
+}
+.recommed ul li{
+    /*使其以行内元素展示（重点）*/
+    display: inline-block;
+}
+.recommed ul{
+    padding:12px 0 8px 0;
+}
+.recommed ul li{
+    padding-left: 10px;
+}
+.recommed ul li a{
+    display:block;/*使其以块状元素显示*/
+    font-size: 15px;
+    width:90px;
+    height:30px;
+    border-radius:4px;
+    background-color:#bbb;
+    margin:0 0 5px 0;
+    text-align:left;
+    padding:5px 0 0 7px;
+    color:#444;
+}
+.recommed ul li a:hover{
+    background: #458b00;
+    color:#fafafa;
+}
+/*中间处理*/
+.hot .figure{
+    padding:10px 0;
+}
+.hot .figure figure{
+    display:inline-block;
+    padding:3px;
+    font-size:16px;
+    color:#666;
+}
+.hot .figure figure figcaption{
+    padding-left:10px;
+}
+/*下*/
+.box{
+    padding:10px 6px;
+    height:105px;
+}
+.box a{
+    width:150px;
+    height:40px;
+    border:1px solid #bbb;
+    background:#bbb;
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 40px;
+    color:#666;
+    margin:2px 0;
+    text-align: left;
+    text-indent: 35px;
+    display:inline-block;/*使其不是并排排列*/
+}
+.box a:hover{
+    background: #458b00;
+    color:#fff;
+}
+.box .box1{
+    background: url("../img/trea1.png") 5px center no-repeat;
+}
+.box .box2{
+    background: url("../img/trea2.png") 5px center no-repeat;
+}
+.box .box3{
+    background: url("../img/trea3.png") 5px center no-repeat;
+}
+.box .box4{
+    background: url("../img/trea4.png") 5px center no-repeat;
+}
+
+/*底部*/
+.foot{
+    width:1210px;
+    margin:0 auto;
+}
+.footer{
+    height:240px;
+    background: rgb(34,34,34);
+}
+.footerleft,.footermiddle,.footerright{
+    width:380px;
+    margin-right:22px;
+}
+.footer .foot h1{
+    color:#888;
+    padding-top:20px;
+    padding-left:10px;
+}
+
+.footerleft h1,.footermiddle h1,.footerright h1{
+    padding-bottom: 5px;
+    border-bottom:1px dashed #666;
+}
+.footer span{
+    color:#555;
+    line-height:30px;
+    font-size:16px;
+    padding-left:10px;
+}
+/*footerr*/
+.footerr{
+    background: #000;
+    height:80px;
+}
+.footerr p{
+    text-align: center;
+    color:#666;
+    font-size: 16px;
+    padding-top:30px;
+}

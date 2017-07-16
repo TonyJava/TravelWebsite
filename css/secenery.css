@@ -1,0 +1,127 @@
+/*头部*/
+.header{
+    height:70px;
+    background: RGB(51,51,51);
+}
+.img{
+    margin-left:40px;
+    float:left;
+    margin-right:350px;
+}
+.ul1 li{
+    float:left;
+    text-align:center;
+}
+.ul1 li a{
+    width:135px;
+    height:70px;
+    line-height: 70px;
+    font-size:18px;
+    color:#ccc;
+    padding:0 20px;
+    display:block;/*此处可以防止鼠标放上去时，出现动的状况*/
+}
+.ul1 li a:hover,.current{
+    background: #900;
+    display:inline-block;
+}
+/*图片区域*/
+.imgs{
+    width:100%;
+    height:300px;
+    /*linear-gradient实现背景渐变效果*/
+    background:linear-gradient(to bottom right,rgba(0,0,0,0.7),rgba(0,0,0,0.0)), url("../img/headline.jpg") no-repeat center;
+}
+.imgs h1,p{
+    padding-left:85px;
+}
+.imgs h1{
+    padding-top: 115px;
+    font-size: 36px;
+    color:#eee;
+    font-weight: bold;
+}
+.imgs p{
+    color:#eee;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*内容区*/
+.content{
+    background:#ccc;
+    height:1600px;
+}
+.content .contentt h2{
+    text-align: center;
+    height:30px;
+    line-height: 30px;
+    font-size: 30px;
+    color:#666;
+    padding:25px 0 55px 0;
+    font-weight: normal;
+    border-bottom:1px dashed #888;
+}
+.content .contentt .imgss{
+    height:1250px;
+    margin: 20px auto;
+    padding:20px 210px 20px 210px;
+}
+.content .contentt .imgss figure{
+    float:left;
+    text-align: center;
+    border:1px solid #aaa;
+    padding:5px;
+    margin:0 10px 30px 0;
+    height:340px;
+}
+.content .contentt .imgss figure img{
+    vertical-align: middle;/*让图片垂直居中*/
+}
+.content .contentt .imgss figure figcaption{
+    font-size: 20px;
+    height:55px;
+    line-height: 55px;
+    color:#666;
+}
+
+/*底部*/
+.foot{
+    width:1210px;
+    margin:0 auto;
+}
+.footer{
+    height:240px;
+    background: rgb(34,34,34);
+}
+.footerleft,.footermiddle,.footerright{
+    width:380px;
+    margin-right:22px;
+}
+.footer .foot h1{
+    color:#888;
+    padding-top:20px;
+    padding-left:10px;
+}
+
+.footerleft h1,.footermiddle h1,.footerright h1{
+    padding-bottom: 5px;
+    border-bottom:1px dashed #666;
+}
+.footer span{
+    color:#555;
+    line-height:30px;
+    font-size:16px;
+    padding-left:10px;
+}
+/*footerr*/
+.footerr{
+    background: #000;
+    height:80px;
+}
+.footerr p{
+    text-align: center;
+    color:#666;
+    font-size: 16px;
+    padding-top:30px;
+}
+
